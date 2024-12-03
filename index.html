@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unite 2 Sabadus Sebastian Antonio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sabadus Sebastian-Antonio</h1>
+        <p><a href="mailto:Sabadus.Vl.Sebastian@student.utcluj.ro">Sabadus.Vl.Sebastian@student.utcluj.ro</a></p>
+    </header>
+    <main>
+        <section>
+            <h2><u>Specificațiile tehnice ale stației principale de lucru</u></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Denumire componentă</th>
+                        <th>Producător</th>
+                        <th>Parametri</th>
+                    </tr>
+                    <tr>
+                        <th>Memorie RAM</th>
+                        <th>KINGSTON</th>
+                        <th>16 GB  DDR5</th>
+                    </tr>
+                    <tr>
+                        <th>Placa Video</th>
+                        <th>NVIDIA</th>
+                        <th>GTX 1650 4GB GDDR6</th>
+                    </tr>
+                    <tr>
+                        <th>Procesor</th>
+                        <th>AMD</th>
+                        <th>Ryzen 5 4600H 3GHz</th>
+                    </tr>
+                    <tr>
+                        <th>Placa de baza</th>
+                        <th>Lenovo</th>
+                        <th>Socket AM4</th>
+                    </tr>
+                    <tr>
+                        <th>SSD</th>
+                        <th>Samsung</th>
+                        <th>1x 512GB, PCI 4.0e, M2</th>
+                    </tr>
+                </thead>
+                
+            </table>
+        </section>
+        <section>
+            <n>
+            <h2><u>Structura rețelei personale și accesul la internet</u></h2>
+            <img src="diagrama.png" alt="diagrama" width="500">
+            </n>
+        </section>
+        
+        <section>
+            <h2><u>Caracteristicile conexiunii la rețea</u></h2>
+            <ol>
+                <li>Adresă MAC:  8C-8C-AA-AC-26-DD</li>
+                <li>Adresă IP:  192.168.0.104</li>
+                <li>Debit la download: 166.8 Mbps</li>
+                <li>Debit la upload: 136.9 Mbps</li>
+            </ol>
+        </section>
+        <slideshow>
+            <h2><u>Utilizarea resurselor</u></h2>
+            <div class="slideshow-container">
+                <div class="slides active">
+                    <img src="diagrama.png" alt="Slide 1" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="Screenshot CPU.png" alt="Slide 2" style="width:70%">
+                </div>
+                <div class="slides">
+                    <img src="Screenshot Disk.png" alt="Slide 3" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="Screenshot Memory.png" alt="Slide 4" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="Screenshot resurse.png" alt="Slide 5" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="Screenshot services.png" alt="Slide 6" style="width:100%">
+                </div>
+                <div class="slides">
+                    <img src="Screenshot Listening Ports.png" alt="Slide 3" style="width:100%">
+                </div>
+                
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="setSlide(0)"></span>
+                <span class="dot" onclick="setSlide(1)"></span>
+                <span class="dot" onclick="setSlide(2)"></span>
+            </div>
+        
+            <script src="java.js"></script>
+            </slideshow>
+        </section>
+    </main>
+</body>
+</html>
